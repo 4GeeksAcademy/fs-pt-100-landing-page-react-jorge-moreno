@@ -9,3 +9,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.jumbotron {
+
+    justify-content: center;
+    display: flex;
+
+}
+
+.miJumbotron {
+    background-color: lightgray;
+}
+
+.card {
+    margin: 1em;
+}
